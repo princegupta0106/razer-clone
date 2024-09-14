@@ -1,0 +1,226 @@
+*{
+    margin : 0;
+    padding: 0;
+    color: white;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    text-align:center;
+    user-select:none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    
+}
+p:hover{
+    cursor:pointer;
+}
+body{
+    background: black;
+}
+nav{
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    background: black;
+ 
+
+    
+}
+.nav-container{
+    width: 85%;
+    margin: 12.5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.nav-container p:hover{
+    color: white;
+}
+.nav-container p{
+    color:#bbbbbb;
+}
+.razer-icon{
+    height: 35px;
+    
+}
+.search-img, .cart-img{
+    height: 16px;
+   
+}
+.header{
+    position:fixed;
+    top:0;
+    z-index: 1;
+}
+.header hr{
+    background: #44d62c;
+    border: #44d62c;
+    height: 1px;
+}
+.main{
+    margin-top: 60px;
+    background-color: #222222;
+   
+   
+}
+.notification{
+    background-color: #555555;
+    display: flex;
+    justify-content: center;
+    padding: .8rem; 
+}
+.keyboards {
+    background: url('images/keyboard.webp');
+    height: 700px;
+}
+.controller{
+    background: url('images/controller.webp');
+    height: 700px;
+}
+.laptops{
+    background: url('images/laptops.webp');
+    height: 700px;
+}
+.razercon{
+    background: url('images/razercon_image.webp');
+    height: 570px;
+}
+.razer-kraken{
+    background: url('images/razer_kraken.webp');
+    height: 570px;
+}
+.razer-blade{
+    background: url('images/razer_blade_laptop.webp');
+    height: 570px;
+}
+.champions{
+    background: url('images/champions.webp');
+    height: 570px;
+}
+.gaming-chairs{
+    background: url('images/gaming_chairs.webp');
+    height: 570px;
+}
+.fortnite{
+    background: url('images/fortnite.webp');
+    height: 570px;
+}
+
+.keyboard {
+    
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    margin-bottom:10px;
+    
+}
+.keyboard-text {
+   
+    width: 70%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.keyboard-links{
+    display:flex;
+    
+
+}
+.keyboard-text h2{
+    font-size:3rem;
+    font-weight:bold;
+}
+.keyboard-text span{
+    margin : 10px ;
+    font-size: 1.5rem;
+}
+.keyboard-links span{
+    color: #44d62c;
+    font-size: smaller;
+}
+.small-box{
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    margin-bottom:10px;
+    width: 49.7%;
+    
+    
+}
+.small-box-text{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.small-box-text h2{
+    font-size:2.5rem;
+    font-weight:500
+}
+.small-box-text span{
+    margin : 10px ;
+    font-size: 1.5rem;
+}
+.small-box-links span{
+    color: #44d62c;
+    font-size: smaller;
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.footer-box{
+    display:flex;
+
+}
+.all-links{
+    width: 70%;
+    display: flex;
+    justify-content: space-around ;
+}
+footer * {
+    text-align: left;
+    background: #111111;
+    color: #999999;
+    font-size:small;
+   
+}
+.footer-box{
+    padding: 20px;
+}
+.shop{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.top-tag{
+    color: white;
+}
+.social-links img{
+    height: 28px;
+}
+.for-gamers{
+    color:#44d62c
+}
+footer hr{
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform : translateX(-50%);
+    background-color:#555555;
+    border-color: #555555;
+    
+}
